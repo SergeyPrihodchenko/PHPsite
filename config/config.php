@@ -4,9 +4,9 @@ define('TEAMPLATES', '../teamplates/');
 define('IMG', 'imgs/');
 
 define('HOST', 'localhost');
-define('USER', 'Master');
-define('PASS', '6mu4pbNw');
-define('DB', 'cc63408_vinokury');
+define('USER', '');
+define('PASS', '');
+define('DB', '');
 
 require '../engien/function.php';
 require '../engien/security.php';
