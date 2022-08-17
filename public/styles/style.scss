@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.autification {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px 30px;
+}
+
+.panel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px 30px;
+
+    .name_drink {
+        padding: 5px 10px;
+        border-radius: 20px;
+        margin: 10px 0;
+    }
+
+    .userfile {
+        margin: 0 0 10px 0;
+    }
+
+    .description {
+        border-radius: 20px;
+        width: 330px;
+        padding: 15px;
+        font-family: "Bad Script";
+        font-weight: 700;
+        margin: 0 0 10px 0;
+    }
+
+    .btn_send {
+        padding: 10px 30px;
+        border-radius: 20px;
+        border: solid .5px black;
+        background-color: white;
+
+        &:hover {
+            background-color: black;
+            color: white;
+            box-shadow: 0px -1px 2px, 0px 1px 20px black;
+            cursor: pointer;
+        }
+    }
+
+}
+
+.logo_text {
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    font-size: 42px;
+    font-weight: 600;
+    padding: 20px 0;
+}
+
+.container {
+    background-color: #E0EEEE;
+    margin: 0 auto;
+    max-width: 1200px;
+    min-width: 600px;
+}
+
+.adminBox {
+    margin: 0 auto;
+    text-align: center;
+
+    .user {
+        border: solid .5 black;
+        border-radius: 20px;
+        padding: 5px 10px;
+        font-family: "Bad Script";
+        font-weight: 700;
+        margin-bottom: 10px;
+      }
+    
+    .pass {
+        border: solid .5 black;
+        border-radius: 20px;
+        padding: 5px 10px;
+        font-family: "Bad Script";
+        font-weight: 700;
+        margin-bottom: 10px;
+    }  
+
+    .btn_aut {
+        padding: 10px 15px;
+        margin-left: 10px;
+        border-radius: 20px;
+        border: solid .5px black;
+        cursor: pointer;
+    }
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    border-bottom: solid .5px black;
+    padding: 30px 0;
+
+    .btn_form {
+        position: absolute;
+        top: 20px;
+        right: 20px;
+
+        padding: 10px 15px;
+        border-radius: 20px;
+        border: solid .5px black;
+        background-color: white;
+
+        &:hover {
+            background-color: black;
+            color: white;
+            box-shadow: 0px -1px 2px, 0px 1px 20px black;
+            cursor: pointer;
+        }
+    }
+
+    .header_drink {
+        margin-bottom: 20px;
+    }
+
+    .descriprion_box {
+        width: 100%;
+        text-align: left;
+        padding: 20px 0;
+
+        .description_drink {
+            margin-left: 100px;
+            font-family: 'Lobster', cursive;
+            font-size: 16px;
+        }
+    }
+
+    .img_drink {
+        border-radius: 30px;
+    }
+    
+}

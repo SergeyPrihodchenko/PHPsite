@@ -1,0 +1,165 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.autification {
+  display: none;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 25px 30px;
+}
+
+.panel {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 25px 30px;
+}
+
+.panel .name_drink {
+  padding: 5px 10px;
+  border-radius: 20px;
+  margin: 10px 0;
+}
+
+.panel .userfile {
+  margin: 0 0 10px 0;
+}
+
+.panel .description {
+  border-radius: 20px;
+  width: 330px;
+  padding: 15px;
+  font-family: "Bad Script";
+  font-weight: 700;
+  margin: 0 0 10px 0;
+}
+
+.panel .btn_send {
+  padding: 10px 30px;
+  border-radius: 20px;
+  border: solid .5px black;
+  background-color: white;
+}
+
+.panel .btn_send:hover {
+  background-color: black;
+  color: white;
+  -webkit-box-shadow: 0px -1px 2px, 0px 1px 20px black;
+          box-shadow: 0px -1px 2px, 0px 1px 20px black;
+  cursor: pointer;
+}
+
+.logo_text {
+  text-align: center;
+  font-family: 'Lobster', cursive;
+  font-size: 42px;
+  font-weight: 600;
+  padding: 20px 0;
+}
+
+.container {
+  background-color: #E0EEEE;
+  margin: 0 auto;
+  max-width: 1200px;
+  min-width: 600px;
+}
+
+.adminBox {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.adminBox .user {
+  border: solid .5 black;
+  border-radius: 20px;
+  padding: 5px 10px;
+  font-family: "Bad Script";
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.adminBox .pass {
+  border: solid .5 black;
+  border-radius: 20px;
+  padding: 5px 10px;
+  font-family: "Bad Script";
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.adminBox .btn_aut {
+  padding: 10px 15px;
+  margin-left: 10px;
+  border-radius: 20px;
+  border: solid .5px black;
+  cursor: pointer;
+}
+
+.content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  border-bottom: solid .5px black;
+  padding: 30px 0;
+}
+
+.content .btn_form {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  padding: 10px 15px;
+  border-radius: 20px;
+  border: solid .5px black;
+  background-color: white;
+}
+
+.content .btn_form:hover {
+  background-color: black;
+  color: white;
+  -webkit-box-shadow: 0px -1px 2px, 0px 1px 20px black;
+          box-shadow: 0px -1px 2px, 0px 1px 20px black;
+  cursor: pointer;
+}
+
+.content .header_drink {
+  margin-bottom: 20px;
+}
+
+.content .descriprion_box {
+  width: 100%;
+  text-align: left;
+  padding: 20px 0;
+}
+
+.content .descriprion_box .description_drink {
+  margin-left: 100px;
+  font-family: 'Lobster', cursive;
+  font-size: 16px;
+}
+
+.content .img_drink {
+  border-radius: 30px;
+}
+/*# sourceMappingURL=style.css.map */
